@@ -1,0 +1,182 @@
+/* *{
+    font-family: "Poppins", sans-serif;
+} */
+
+html,
+body {
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+  /* background-color: lightseagreen; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  padding: 6px;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: end;
+  gap: 24px;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.header__service {
+  display: flex;
+  gap: 12px;
+  font-size: 0.9rem;
+}
+
+.header__service a {
+  text-decoration: none;
+  color: #000000de;
+}
+
+.header__service a:hover {
+  text-decoration: underline;
+  /* transform: .3s; */
+}
+
+.header__profile {
+  width: 100px;
+  display: flex;
+  gap: 24px;
+}
+
+.header__profile-profile {
+  border-radius: 50%;
+}
+
+/****** main ******/
+.main {
+  background-color: #fff;
+  width: 100%;
+}
+
+.main__logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.main__logo-google {
+  font-size: 6rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  gap: 0.15rem;
+}
+
+/* Colores oficiales del logotipo */
+.g-blue {
+  color: #4285f4;
+}
+
+.o-red {
+  color: #ea4335;
+}
+
+.o-yellow {
+  color: #fbbc05;
+}
+
+.l-green {
+  color: #34a853;
+}
+
+.e-red {
+  color: #ea4335;
+}
+
+.main__search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__search-bar {
+    display: flex;
+    padding: 12px;
+    width: 700px;
+    gap: 16px;
+    border: 1px solid #dadce0;
+    box-shadow: 0px 3px 10px 0px rgba(31, 31, 31, 0.08);
+    border-radius: 34px;
+}
+
+.main__search-bar:hover{
+    background: #fff;
+    box-shadow: 0 2px 8px 1px rgba(64,60,67,.24);
+    transition: .3s;
+
+}
+
+.main__search-bar img {
+  flex: 0.8;
+}
+
+.main__search-bar input {
+  flex: 16;
+}
+
+.main__search-bar input:focus {
+  border: none;
+  outline: none;
+}
+
+.main__search-bar div {
+  flex: 3.3;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: #f3f5f6;
+  padding: 8px;
+  border-radius: 50px;
+  font-weight: 200;
+}
+
+.main__search-options {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.main__search-options button {
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: 100;
+  background: #f2f2f288;
+  cursor: pointer;
+}
+
+/******* Footer *********/
+.footer {
+    width: 100%;
+    background: #f2f2f2;
+}
+
+.footer__country{
+    padding: 16px 28px;
+    border-bottom: 1px solid #8f8e8e34;
+}
+
+.footer__aboutus{
+    padding: 16px 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__aboutus ul{
+    display: flex;
+    gap: 24px;
+    cursor: pointer;
+}
+
+.footer__aboutus ul li:hover{
+    text-decoration: underline;
+}
